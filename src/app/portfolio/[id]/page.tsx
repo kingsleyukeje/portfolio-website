@@ -3,11 +3,9 @@
 "use client";
 
 import ContentsWrapper from "@/components/contents-wrapper";
-import Footer from "@/components/Footer";
 import FooterNew from "@/components/Footer/Footer";
 import ArrowRight from "@/components/icon";
 import { portfolio } from "@/constant/portfolio";
-import Image from "next/image";
 import { useParams } from "next/navigation";
 
 export default function PortfolioDetail() {

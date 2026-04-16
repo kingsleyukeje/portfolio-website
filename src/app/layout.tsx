@@ -48,7 +48,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${inter.variable}`}>
+    <html lang="en" className={`${inter.variable} ${roboto_mono.variable}`}>
       <body className="bg-white text-black dark:bg-dark-bg dark:text-white antialiased transition-colors duration-500">
         <AppLoaderWrapper>{children}</AppLoaderWrapper>
       </body>
