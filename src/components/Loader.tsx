@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import TypingEffect from "./TypingEffect";
 
 const typewriterLines = [
   "kingsleyukeje_UXDESIGNER_ENGINEER ",
@@ -9,37 +10,7 @@ const typewriterLines = [
 export default function Loader({ onDone }: { onDone: () => void }) {
   const [percent, setPercent] = useState(0);
   const [fade, setFade] = useState(false);
-  const [typed, setTyped] = useState(["", "", ""]);
-
-  // Typewriter effect
-  useEffect(() => {
-    let line = 0;
-    let char = 0;
-    let typing = true;
-    function typeNext() {
-      if (!typing) return;
-      if (line < typewriterLines.length) {
-        if (char < typewriterLines[line].length) {
-          setTyped((prev) => {
-            const next = [...prev];
-            next[line] = typewriterLines[line].slice(0, char + 1);
-            return next;
-          });
-          char++;
-          setTimeout(typeNext, 28); // typing speed
-        } else {
-          line++;
-          char = 0;
-          setTimeout(typeNext, 300); // pause between lines
-        }
-      }
-    }
-    typeNext();
-    return () => {
-      typing = false;
-    };
-  }, []);
-
+  
   // Loader percent animation (unchanged)
   useEffect(() => {
     if (percent < 100) {
@@ -90,8 +61,9 @@ export default function Loader({ onDone }: { onDone: () => void }) {
     >
       {/* Typewriter text top left */}
       <div className="absolute top-4 left-4 text-left text-[#0A0A0A] dark:text-white font-roboto-mono text-[12px] leading-snug select-none break-words w-[90vw] max-w-[700px] uppercase">
-        {typed.map((line, i) => (
-          <div key={i}>{line}</div>
+        {typewriterLines.map((line, i) => (
+          // <div key={i}>{line}</div>
+          <TypingEffect key={i} word={line} speedd={50}/>
         ))}
       </div>
       {/* Percent bottom left */}

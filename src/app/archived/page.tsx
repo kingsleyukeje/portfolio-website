@@ -12,7 +12,7 @@ export default function Archived() {
             <div>
               <a
                 href="https://v1.kingsleyukeje.com/"
-                className="inline-flex gap-1 items-center "
+                className="inline-flex gap-1 items-center sliding-underline "
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -25,7 +25,7 @@ export default function Archived() {
                 href="https://www.v1.kingsleyukeje.com/case-study/common-wealth"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex gap-1 items-center "
+                className="inline-flex gap-1 items-center sliding-underline "
               >
                 <span>CommonWealth Case Study</span>
                 <ArrowRight />
@@ -36,7 +36,7 @@ export default function Archived() {
                 href="https://www.v1.kingsleyukeje.com/case-study/spasora"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex gap-1 items-center "
+                className="inline-flex gap-1 items-center sliding-underline "
               >
                 <span>Spasora Case Study</span>
                 <ArrowRight />
@@ -47,7 +47,7 @@ export default function Archived() {
                 href="https://www.v1.kingsleyukeje.com/case-study/hotel-ng"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex gap-1 items-center "
+                className="inline-flex gap-1 items-center sliding-underline "
               >
                 <span>Hotels.ng Case Study</span>
                 <ArrowRight />
@@ -58,7 +58,7 @@ export default function Archived() {
                 href="https://www.v1.kingsleyukeje.com/case-study/chaka"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex gap-1 items-center "
+                className="inline-flex gap-1 items-center sliding-underline "
               >
                 <span>Chaka Case Study</span>
                 <ArrowRight />

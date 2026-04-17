@@ -126,7 +126,7 @@ export default function About() {
                 I also founded and run a foundation close to my heart, focused
                 on uplifting underserved communities through gifts, creativity,
                 education, and opportunity. You can read more about the work
-                we&rsquo;re doing [here].
+                we&rsquo;re doing <a className="lined-underline" href="https://kingsleyukeje.notion.site/The-Pivot-Foundation-cab86362d02a42efb4bad68ba4e2ffab?pvs=143">[here]</a>.
               </p>
             </div>
             <a

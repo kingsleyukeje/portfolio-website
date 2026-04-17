@@ -55,7 +55,7 @@ export default function Header() {
           </div>
           <div>
             <Link
-              href="https://drive.google.com/file/d/1kpAQFolZewKdourSQ_TMKFSbyxLt9P7z/view"
+              href="https://github.com/kingsleyukeje"
               target="_blank"
               rel="noopener noreferrer"
               className={`inline-flex gap-1 items-center ${
@@ -70,7 +70,7 @@ export default function Header() {
           </div>
           <div>
             <Link
-              href="https://drive.google.com/file/d/1kpAQFolZewKdourSQ_TMKFSbyxLt9P7z/view"
+              href="https://docs.google.com/document/d/1Vtz7VA4C-_PTh54RoW1seshJnEIg_vNPet12PpcBLPI/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className={`inline-flex gap-1 items-center ${
@@ -85,8 +85,7 @@ export default function Header() {
           </div>
           <div>
             <a
-              href="https://www.are.na/_-studio-kingsleyukeje/channels"
-              target="_blank"
+              href="https://kingsleyukeje.substack.com/"
               rel="noopener noreferrer"
               className={`inline-flex gap-1 items-center ${
                 pathname === "/studio"

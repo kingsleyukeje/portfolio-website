@@ -12,15 +12,16 @@ export default function Imprint() {
               Copyright
             </h2>
             <p className="text-sm leading-relaxed text-black dark:text-white">
-              This website and its contents are subject to Nigerian copyright
-              law under the Copyright Act (Cap C28 Laws of the Federation of
-              Nigeria 2004, as amended). Unless expressly permitted by law,
-              every form of utilizing, reproducing, or processing works subject
-              to copyright protection on this website requires my prior consent.
-              Individual reproductions of a work are allowed only for private
-              use and must not serve either directly or indirectly for earnings.
-              Unauthorized utilization of copyrighted works is punishable under
-              Section 20 and related provisions of the Copyright Act.
+              This website and its contents are protected under UK copyright law, 
+              in particular the Copyright, Designs and Patents Act 1988, as amended. 
+              Unless expressly permitted by law, any use, reproduction, distribution, or 
+              processing of content on this website requires the prior written consent of the 
+              website owner.
+            </p>
+            <p className="text-sm leading-relaxed text-black dark:text-white">
+              Copies may be made for private, non-commercial use only. Any unauthorized 
+              use of copyrighted material may give rise to civil and/or criminal liability 
+              under applicable UK law.
             </p>
           </section>
           {/* Limitation of liability Section */}
@@ -29,17 +30,18 @@ export default function Imprint() {
               Limitation of liability for internal content
             </h2>
             <p className="text-sm leading-relaxed text-black dark:text-white">
-              The contents of this website have been created with my utmost
-              care. However, I cannot guarantee the contents&apos; accuracy,
-              completeness, or topicality. According to statutory provisions, I
-              am furthermore responsible for my own content. In this context,
-              please note that I am not obliged to monitor merely the
-              transmitted or stored information of third parties, or investigate
-              circumstances pointing to illegal activity. My obligation to
-              remove or block the use of information under generally applicable
-              laws remains unaffected by this, particularly under relevant
-              sections of the Cybercrimes (Prohibition, Prevention, etc.) Act,
-              2015 and the Nigeria Data Protection Act, 2023.
+            The contents of this website have been created with due care. However, no 
+            guarantee is given regarding the accuracy, completeness, or timeliness of 
+            the information provided.As a service provider, I am responsible for my own content on 
+            these pages in accordance with general UK laws. I am not obliged to monitor transmitted 
+            or stored third-party information or to actively investigate circumstances indicating 
+            unlawful activity, in line with the Electronic Commerce (EC Directive) Regulations
+             2002.Obligations to remove or block the use of information under applicable laws 
+             remain unaffected. This includes obligations arising under the UK General Data
+              Protection Regulation (UK GDPR) and the Data Protection Act 2018.
+            </p>
+            <p>
+              This website is governed by the laws of England and Wales. 
             </p>
           </section>
         </div>

@@ -103,7 +103,7 @@ export default function Career() {
             <div key={experience.id} className="flex mb-4 gap-4">
               <p className="text-sm w-[80px] font-medium">{experience.year}</p>
               <div className="w-3/4">
-                <p className="text-sm underline font-medium">
+                <p className="sliding-underline text-sm underline font-medium">
                   {experience.title}
                 </p>
                 <span className="text-sm font-[500] mb-1 text-[#B4B4B4]">
@@ -122,7 +122,7 @@ export default function Career() {
               <div key={cert.id} className="flex mb-4 gap-4">
                 <p className="text-sm w-[80px] font-medium">{cert.year}</p>
                 <div className="w-3/4">
-                  <p className="text-sm underline font-medium">{cert.title}</p>
+                  <p className="text-sm underline font-medium sliding-underline">{cert.title}</p>
                   <span className="text-sm font-[500] mb-1 text-[#B4B4B4]">
                     {cert.location}
                   </span>

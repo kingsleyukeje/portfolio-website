@@ -19,7 +19,7 @@ export default function PortfolioDetail() {
             <h1 className="text-sm font-[500] mb-4">{portfolioItem.title}</h1>
             {Array.isArray(portfolioItem.text) ? (
               portfolioItem.text.map((text, index) => (
-                <p key={index} className={`text-sm ${portfolioItem.textsMargin && "mt-5"}`}>
+                <p key={index} className={`text-sm ${portfolioItem.textsMargin && "mt-5"} mt-5`}>
                   {text}
                 </p>
               ))
@@ -32,7 +32,7 @@ export default function PortfolioDetail() {
               href={portfolioItem.fullCaseLink}
               target="_blank"
               rel="noopener noreferrer"
-              className={`${portfolioItem.studyMargin ? "mt-5" : "mt-1"} mt-1 inline-flex gap-1 items-center`}
+              className={`${portfolioItem.studyMargin ? "mt-5" : "mt-5"} mt-1 inline-flex gap-1 items-center sliding-underline`}
             >
               <span> Read Full Case Study</span>
               <ArrowRight />
@@ -42,14 +42,14 @@ export default function PortfolioDetail() {
             {portfolioItem.otherResources.map((resource) => (
               <div key={resource.id} className="mb-2">
                 <h2 className="text-sm font-[500] text-[#B4B4B4]">
-                  {resource.title}e
+                  {resource.title}
                 </h2>
                 {resource.link ? (
                   <a
                     href={resource.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`inline-flex gap-1 items-center text-sm text-black dark:text-white`}
+                    className={`sliding-underline inline-flex gap-1 items-center text-sm text-black dark:text-white`}
                   >
                     {resource.description}
                     <ArrowRight />

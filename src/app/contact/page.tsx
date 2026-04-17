@@ -9,11 +9,11 @@ export default function Contact() {
           <div className="flex flex-col space-y-[2px] text-sm">
             <div>
               <a
-                href="https://drive.google.com/file/d/1kpAQFolZewKdourSQ_TMKFSbyxLt9P7z/view"
+                href="https://x.com/kingsleyukeje"
                 download="Kingsley-Ukeje-CV.pdf"
                 className="inline-flex gap-1 items-center "
               >
-                <span>resume</span>
+                <span>X</span>
                 <ArrowRight />
               </a>
             </div>
@@ -28,6 +28,26 @@ export default function Contact() {
             </div>
             <div>
               <a
+                href="https://www.are.na/kingsley-ukeje/channels"
+                className="inline-flex gap-1 items-center "
+              >
+                <span>are.na</span>
+                <ArrowRight />
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://docs.google.com/document/d/1Vtz7VA4C-_PTh54RoW1seshJnEIg_vNPet12PpcBLPI/edit?usp=sharing"
+                download="Kingsley-Ukeje-CV.pdf"
+                className="inline-flex gap-1 items-center "
+              >
+                <span>résumé</span>
+                <ArrowRight />
+              </a>
+            </div>
+            
+            <div>
+              <a
                 href="https://www.linkedin.com/in/kingsleyukeje"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -39,7 +59,7 @@ export default function Contact() {
             </div>
             <div>
               <a
-                href="https://x.com/kingsleyukeje"
+                href="https://youtube.com/@kingsleyukeje"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex gap-1 items-center "
@@ -50,12 +70,12 @@ export default function Contact() {
             </div>
             <div>
               <a
-                href="https://x.com/kingsleyukeje_"
+                href="https://kingsleyukeje.substack.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex gap-1 items-center "
               >
-                <span>x</span>
+                <span>substack</span>
                 <ArrowRight />
               </a>
             </div>
