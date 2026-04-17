@@ -1,18 +1,18 @@
-/** @format */
 
 "use client";
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
+import { WeatherResponse } from "@/constant/type";
 
 
 export default function Footer() {
   const pathname = usePathname();
   const [currentTime, setCurrentTime] = useState("");
   // const [weather, setWeather] = useState("Loading weather...");
-  const [location, setLocation] = useState<any>();
-  const [coords, setChoords] = useState<any>()
+  const [location, setLocation] = useState<WeatherResponse>();
+  // const [coords, setChoords] = useState<any>()
 
   const geo = async () => {
     const response = await fetch(
@@ -20,7 +20,7 @@ export default function Footer() {
     );
     const data  = await response.json();
     setLocation(data)
-    setChoords(toDMS(location?.location?.lat, location?.location?.lon))
+    // setChoords(toDMS(location?.location?.lat, location?.location?.lon))
   };
 
   useEffect(() => {
@@ -35,27 +35,27 @@ export default function Footer() {
       setCurrentTime(timeString);
     };
     updateTime();
-    const timeInterval = setInterval(updateTime, 60000);
+    // const timeInterval = setInterval(updateTime, 60000);
 
     // Geolocation
     geo()
   }, []);
 
-  function toDMS(lat: any, lng: any) {
-    function convert(value: any, isLat: any) {
-      const dir = value >= 0
-        ? (isLat ? "N" : "E")
-        : (isLat ? "S" : "W");
+  // function toDMS(lat: any, lng: any) {
+  //   function convert(value: any, isLat: any) {
+  //     const dir = value >= 0
+  //       ? (isLat ? "N" : "E")
+  //       : (isLat ? "S" : "W");
   
-      value = Math.abs(value);
-      const deg = Math.floor(value);
-      const min = ((value - deg) * 60).toFixed(3);
+  //     value = Math.abs(value);
+  //     const deg = Math.floor(value);
+  //     const min = ((value - deg) * 60).toFixed(3);
   
-      return `${deg}°${min}'${dir}`;
-    }
+  //     return `${deg}°${min}'${dir}`;
+  //   }
   
-    return `${convert(lat, true)} ${convert(lng, false)}`;
-  }
+  //   return `${convert(lat, true)} ${convert(lng, false)}`;
+  // }
 
   return (
     <footer className="w-full flex flex-col md:flex-row md:justify-between md:items-end p-4 md:p-[10px] text-sm  text-black dark:text-white gap-8 md:gap-0">
