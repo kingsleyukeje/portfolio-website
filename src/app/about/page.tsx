@@ -110,8 +110,8 @@ export default function About() {
               </p>
             </div>
           </section>
-          <section>
-            <h1 className="text-sm font-[500] text-[#B4B4B4]">
+          <section className="mt-10">
+            <h1 className="text-sm font-[500] text-[#B4B4B4] mt-9">
               Beyond The Screen
             </h1>
             <div>

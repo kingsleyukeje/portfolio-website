@@ -10,7 +10,7 @@ const typewriterLines = [
 export default function Loader({ onDone }: { onDone: () => void }) {
   const [percent, setPercent] = useState(0);
   const [fade, setFade] = useState(false);
-  
+
   // Loader percent animation (unchanged)
   useEffect(() => {
     if (percent < 100) {
@@ -67,7 +67,7 @@ export default function Loader({ onDone }: { onDone: () => void }) {
         ))}
       </div>
       {/* Percent bottom left */}
-      <span className="absolute bottom-4 left-4 text-black dark:text-white select-none tracking-widest text-[97px] font-roboto-mono">
+      <span className="absolute bottom-4 left-4 text-black dark:text-white select-none tracking-normal text-[97px] font-roboto-mono">
         {percent}%
       </span>
     </div>
