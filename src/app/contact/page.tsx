@@ -9,8 +9,9 @@ export default function Contact() {
           <div className="flex flex-col space-y-[2px] text-sm">
             <div>
               <a
-                href="https://x.com/kingsleyukeje"
+                href="https://x.com/kingsleyukeje_"
                 download="Kingsley-Ukeje-CV.pdf"
+                target="_blank"
                 className="inline-flex gap-1 items-center "
               >
                 <span>X</span>
@@ -19,8 +20,9 @@ export default function Contact() {
             </div>
             <div>
               <a
-                href="mailto:kingsleyukejex@gmail.com"
+                href="mailto:hello@kingsleyukeje.com"
                 className="inline-flex gap-1 items-center "
+                target="_blank"
               >
                 <span>email</span>
                 <ArrowRight />
@@ -30,6 +32,7 @@ export default function Contact() {
               <a
                 href="https://www.are.na/kingsley-ukeje/channels"
                 className="inline-flex gap-1 items-center "
+                target="_blank"
               >
                 <span>are.na</span>
                 <ArrowRight />
@@ -40,6 +43,7 @@ export default function Contact() {
                 href="https://docs.google.com/document/d/1Vtz7VA4C-_PTh54RoW1seshJnEIg_vNPet12PpcBLPI/edit?usp=sharing"
                 download="Kingsley-Ukeje-CV.pdf"
                 className="inline-flex gap-1 items-center "
+                target="_blank"
               >
                 <span>résumé</span>
                 <ArrowRight />

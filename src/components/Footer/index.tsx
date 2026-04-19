@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { WeatherResponse } from "@/constant/type";
+import { format } from "date-and-time";
 
 
 export default function Footer() {
@@ -26,13 +27,14 @@ export default function Footer() {
   useEffect(() => {
     // Update time every minute
     const updateTime = () => {
-      const now = new Date();
-      const timeString = now.toLocaleTimeString("en-US", {
-        hour: "numeric",
+      const timeOnly = new Date().toLocaleTimeString("en-GB", {
+        timeZone: "Europe/London",
+        hour: "2-digit",
         minute: "2-digit",
-        hour12: true,
+        second: "2-digit",
+        hour12: false // Set to true for AM/PM
       });
-      setCurrentTime(timeString);
+      setCurrentTime(timeOnly);
     };
     updateTime();
     // const timeInterval = setInterval(updateTime, 60000);
@@ -61,12 +63,12 @@ export default function Footer() {
     <footer className="w-full flex flex-col md:flex-row md:justify-between md:items-end p-4 md:p-[10px] text-sm  text-black dark:text-white gap-8 md:gap-0">
       <div className="flex flex-col space-y-1 md:min-w-[295px]">
         <div>{location?.location?.name}, {location?.location?.country}</div>
-        <div>55.3781° N, 3.4360° W</div>
+        <div>51°30.443′ N, 0°07.689′ W</div>
         <div>
-          {currentTime}, {location?.current?.condition?.text} at {location?.current.temp_c} °C
+          {currentTime} GTM, {location?.current?.condition?.text} at {location?.current.temp_c} °C
         </div>
       </div>
-
+      {/* {format(new Date(currentTime), "HH:mm:ss")} */}
       <div className="flex md:space-x-12 flex-col-reverse md:flex-row gap-1 md:gap-0 bg-white dark:bg-black">
         {/* <div className="md:text-center">©2025 Kingsley Ukeje</div> */}
         <Link

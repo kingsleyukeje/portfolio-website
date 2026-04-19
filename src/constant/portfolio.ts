@@ -150,8 +150,8 @@ export const portfolio = [
       ["25"],
       ["26"],
     ],
-    textsMargin: false,
-    studyMargin: false,
+    textsMargin: true,
+    studyMargin: true,
   },
   {
     id: "spasora",
@@ -228,7 +228,7 @@ export const portfolio = [
 
     ],
     textsMargin: true,
-    studyMargin: false,
+    studyMargin: true,
   },
   {
     id: "hotelng",
@@ -305,6 +305,6 @@ export const portfolio = [
 
     ],
     textsMargin: true,
-    studyMargin: false,
+    studyMargin: true,
   },
 ];
