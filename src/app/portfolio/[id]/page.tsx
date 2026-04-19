@@ -74,7 +74,7 @@ export default function PortfolioDetail() {
           zIndex: 99,
         }}
       ></div>
-      <div className="flex flex-col gap-1 p-2 z-10">
+      <div className="flex flex-col gap-1 p-1 z-10">
         {portfolioItem?.portfolioImages.map((row, rowIndex) => (
           <div
             key={rowIndex}
