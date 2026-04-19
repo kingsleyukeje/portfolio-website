@@ -72,7 +72,7 @@ export default function About() {
             <div className="text-sm">
               <p className="text-sm">
                 I&apos;ve helped scale Eze (YC W20) to $50M+ in annual GMV and
-                20k+ users — while also supporting a $3.7M seed raise. I'm also
+                20k+ users — while also supporting a $3.7M seed raise. I&apos;m also
                 shaping a fintech startup that has disbursed $2M+ in loans and
                 raised $4.2M in seed funding.
               </p>
