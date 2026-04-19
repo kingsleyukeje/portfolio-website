@@ -74,11 +74,11 @@ export default function PortfolioDetail() {
           zIndex: 99,
         }}
       ></div>
-      <div className="flex flex-col gap-2 p-2 z-10">
+      <div className="flex flex-col gap-1 p-2 z-10">
         {portfolioItem?.portfolioImages.map((row, rowIndex) => (
           <div
             key={rowIndex}
-            className={`grid gap-2 ${
+            className={`grid gap-1 ${
               row.length === 1 ? "grid-cols-1" : "grid-cols-2"
             }`}
           >
