@@ -131,6 +131,7 @@ export default function About() {
                   <a
                     className="sliding-underline"
                     href="https://kingsleyukeje.notion.site/The-Pivot-Foundation-cab86362d02a42efb4bad68ba4e2ffab?pvs=143"
+                    target="_blank"
                   >
                     The Pivot Foundation
                   </a>
@@ -141,17 +142,13 @@ export default function About() {
                 <a
                   className="sliding-underline"
                   href="https://kingsleyukeje.notion.site/The-Pivot-Foundation-cab86362d02a42efb4bad68ba4e2ffab?pvs=143"
+                  target="_blank"
                 >
-                   [here]
+                   here
                 </a>
                 .
               </p>
             </div>
-            <a
-              href="/assets/image-3.png"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
               <Image
                 src="/new/about_image_2.png"
                 alt="typography"
@@ -159,7 +156,6 @@ export default function About() {
                 height={1000}
                 className="my-1"
               />
-            </a>
           </section>
         </div>
       </ContentsWrapper>

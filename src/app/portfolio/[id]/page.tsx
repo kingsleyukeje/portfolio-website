@@ -44,8 +44,8 @@ export default function PortfolioDetail() {
           </div>
           <div className={`${portfolioItem.studyMargin ? "mt-10" : "mt-5"}`}>
             {portfolioItem.otherResources.map((resource) => (
-              <div key={resource.id} className="mb-2 font-medium">
-                <h2 className="text-sm font-[500] text-[#B4B4B4] leading-4">
+              <div key={resource.id} className="mb-3 font-medium">
+                <h2 className="text-sm font-[500] text-[#B4B4B4] leading-3">
                   {resource.title}
                 </h2>
                 {resource.link ? (
