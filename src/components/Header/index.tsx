@@ -14,11 +14,12 @@ export default function Header() {
     let lastState = true;
     const handleScroll = () => {
       const y = window.scrollY;
+      console.log(y)
       // setScroll(y);
-      if (y > 1100 && lastState) {
+      if (y > 900 && lastState) {
         lastState = false;
         setShow(false);
-      } else if (y < 950 && !lastState) {
+      } else if (y < 700 && !lastState) {
         lastState = true;
         setShow(true);
       }

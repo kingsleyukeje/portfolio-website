@@ -12,9 +12,6 @@ export default function PortfolioDetail() {
   const { id } = useParams<{ id: string }>();
  
   const portfolioItem = portfolio.find((item) => item.id === id);
- 
-
-
   return (
     <div>
       {portfolioItem ? (
@@ -44,7 +41,7 @@ export default function PortfolioDetail() {
           </div>
           <div className={`${portfolioItem.studyMargin ? "mt-10" : "mt-5"}`}>
             {portfolioItem.otherResources.map((resource) => (
-              <div key={resource.id} className="mb-3 font-medium">
+              <div key={resource.id} className="mb-4 font-medium">
                 <h2 className="text-sm font-[500] text-[#B4B4B4] leading-3">
                   {resource.title}
                 </h2>
@@ -53,7 +50,7 @@ export default function PortfolioDetail() {
                     href={resource.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`sliding-underline inline-flex gap-1 items-center text-sm text-black dark:text-white `}
+                    className={`sliding-underline inline-flex gap-1 items-center text-sm text-black dark:text-white mb-[2px]`}
                   >
                     {resource.description}
                     <ArrowRight />
