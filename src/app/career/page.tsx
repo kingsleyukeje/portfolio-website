@@ -22,6 +22,12 @@ export default function Career() {
       title: "Product Designer II (Contract) @ Scalio",
       location: "San Francisco, USA",
     },
+    {
+      id: 8,
+      year: "2021",
+      title: "Principal Product Designer @ Carrot Credit",
+      location: "Delaware, USA",
+    },
 
     {
       id: 4,

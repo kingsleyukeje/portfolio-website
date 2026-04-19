@@ -71,22 +71,25 @@ export default function About() {
 
             <div className="text-sm">
               <p className="text-sm">
-                Design and UX Engineer and Founding Designer with years of
-                experience building and scaling high-impact digital products
-                across web and mobile. I operate at the intersection of design,
-                engineering, and product strategy—owning problems end-to-end,
-                from user research and design systems to production frontend
-                code.
+                I've helped scale Eze (YC W20) to $50M+ in annual GMV and 20k+
+                users — while also supporting a $3.7M seed raise. I'm a UX
+                Engineer and Founding Designer with years of experience building
+                and scaling high-impact digital products across web and mobile.
+                I operate at the intersection of design, engineering, and
+                product strategy—owning problems end-to-end, from user research
+                and design systems to production frontend code, which means I
+                ship faster and lose less in translation between Figma and
+                production.
               </p>
             </div>
             {/* </a> */}
             <div className="text-sm mt-5">
               <p className="text-sm">
-                I&rsquo;ve been a founding designer at three startups, including Eze
+                I've been a founding designer at three startups, including Eze
                 and a fintech platform—helping shape products from zero to
                 scale. Currently, I lead product and design strategy at Eze,
-                where I&rsquo;ve grown the marketplace to $50M+ in annual GMV, 20,000+
-                users, and helped raise $3.7M in seed funding. I&rsquo;m also shaping
+                where I've grown the marketplace to $50M+ in annual GMV, 20,000+
+                users, and helped raise $3.7M in seed funding. I'm also shaping
                 a fintech startup that has disbursed $2M+ in loans and raised
                 $4.2M in seed funding. By implementing my own designs in
                 JavaScript, I accelerate shipping cycles and ensure every
@@ -95,7 +98,7 @@ export default function About() {
             </div>
             <div className="text-sm mt-5">
               <p className="text-sm">
-                I&rsquo;ve led cross-functional teams, evolved design systems aligned
+                I've led cross-functional teams, evolved design systems aligned
                 with industry standards, and shipped scalable solutions that
                 improved performance, increased adoption, and directly drove
                 revenue. My edge is simple: I design with engineering
@@ -111,22 +114,37 @@ export default function About() {
             </h1>
             <div>
               <p className="text-sm mt-1">
-                I wear many hats — UX Engineer by profession, photographer and
-                car enthusiast by passion, and pro flag footballer by sheer love
-                of the game. I&rsquo;m also an author, speaker, and mentor, committed
-                to empowering the next generation of creatives and sharing
-                insights on global stages.
+                I wear many hats — UX Engineer by profession, photographer, car
+                enthusiast by passion, and pro flag footballer by sheer love of
+                the game. I'm also an author, speaker, and mentor, committed to
+                empowering the next generation of creatives and sharing insights
+                on global stages.
               </p>
               <p className="mt-5">
-                Each role fuels a different side of me. I create with purpose,
+                Each role fuels a different side of me: I create with purpose,
                 connect with people, compete with heart, and give back with
                 intention.
               </p>
               <p className="mt-5">
-                I also founded and run a foundation close to my heart, focused
-                on uplifting underserved communities through gifts, creativity,
-                education, and opportunity. You can read more about the work
-                we&rsquo;re doing <a className="lined-underline" href="https://kingsleyukeje.notion.site/The-Pivot-Foundation-cab86362d02a42efb4bad68ba4e2ffab?pvs=143">[here]</a>.
+                I also founded{" "}
+                <span>
+                  <a
+                    className="sliding-underline"
+                    href="https://kingsleyukeje.notion.site/The-Pivot-Foundation-cab86362d02a42efb4bad68ba4e2ffab?pvs=143"
+                  >
+                    The Pivot Foundation
+                  </a>
+                </span>{" "}
+                which I hold dear to my heart, focused on uplifting underserved
+                communities through gifts, creativity, education, and
+                opportunity. You can read more about the work we're doing{" "}
+                <a
+                  className="sliding-underline"
+                  href="https://kingsleyukeje.notion.site/The-Pivot-Foundation-cab86362d02a42efb4bad68ba4e2ffab?pvs=143"
+                >
+                   [here]
+                </a>
+                .
               </p>
             </div>
             <a

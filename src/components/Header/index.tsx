@@ -111,6 +111,7 @@ export default function Header() {
             <a
               href="https://kingsleyukeje.substack.com/"
               rel="noopener noreferrer"
+              target="_blank"
               className={`inline-flex gap-1 items-center ${
                 pathname === "/studio"
                   ? "text-[#0969DA]"

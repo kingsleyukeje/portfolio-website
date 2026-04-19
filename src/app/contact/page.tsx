@@ -12,7 +12,7 @@ export default function Contact() {
                 href="https://x.com/kingsleyukeje_"
                 download="Kingsley-Ukeje-CV.pdf"
                 target="_blank"
-                className="inline-flex gap-1 items-center "
+                className="inline-flex gap-1 items-center sliding-underline"
               >
                 <span>X</span>
                 <ArrowRight />
@@ -21,7 +21,7 @@ export default function Contact() {
             <div>
               <a
                 href="mailto:hello@kingsleyukeje.com"
-                className="inline-flex gap-1 items-center "
+                className="inline-flex gap-1 items-center sliding-underline"
                 target="_blank"
               >
                 <span>email</span>
@@ -31,7 +31,7 @@ export default function Contact() {
             <div>
               <a
                 href="https://www.are.na/kingsley-ukeje/channels"
-                className="inline-flex gap-1 items-center "
+                className="inline-flex gap-1 items-center sliding-underline"
                 target="_blank"
               >
                 <span>are.na</span>
@@ -42,7 +42,7 @@ export default function Contact() {
               <a
                 href="https://docs.google.com/document/d/1Vtz7VA4C-_PTh54RoW1seshJnEIg_vNPet12PpcBLPI/edit?usp=sharing"
                 download="Kingsley-Ukeje-CV.pdf"
-                className="inline-flex gap-1 items-center "
+                className="inline-flex gap-1 items-center sliding-underline"
                 target="_blank"
               >
                 <span>résumé</span>
@@ -55,7 +55,7 @@ export default function Contact() {
                 href="https://www.linkedin.com/in/kingsleyukeje"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex gap-1 items-center "
+                className="inline-flex gap-1 items-center sliding-underline"
               >
                 <span>linkedin</span>
                 <ArrowRight />
@@ -66,7 +66,7 @@ export default function Contact() {
                 href="https://youtube.com/@kingsleyukeje"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex gap-1 items-center "
+                className="inline-flex gap-1 items-center sliding-underline"
               >
                 <span>youtube</span>
                 <ArrowRight />
@@ -77,7 +77,7 @@ export default function Contact() {
                 href="https://kingsleyukeje.substack.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex gap-1 items-center "
+                className="inline-flex gap-1 items-center sliding-underline"
               >
                 <span>substack</span>
                 <ArrowRight />

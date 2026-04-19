@@ -83,7 +83,7 @@ export const portfolio = [
       "Creating a Scalable Platform to Meet the Growing Demand for Affordable and Sustainable Electronics",
     text: [
       "During the Apple WWDC event of 2023, when the iPhone 15 series was announced, a major part of their event was centred around their sustainability efforts, focusing on reducing their carbon footprint and moving towards greener manufacturing processes for electronic devices. This commitment to sustainability reflects a broader shift in the industry, with consumers becoming more conscious of the lifecycle of their electronics and businesses increasingly looking for ways to align with these values.",
-      "The rapid innovation cycle and planned obsolescence of smartphones have produced a growing secondary smartphone market. Whether you’re an individual trading in his or her own personal cellphone, or a vendor buys and sells smartphones in large volumes, navigating the used electronics space is difficult",
+      "The rapid innovation cycle and planned obsolescence of smartphones have produced a growing secondary smartphone market. Whether you're an individual trading in his or her own personal cellphone, or a vendor buys and sells smartphones in large volumes, navigating the used electronics space is difficult.",
       "Eze Wholesale was founded to address this need: to create a streamlined, efficient platform where businesses can access bulk electronics, including refurbished devices, directly from trusted suppliers. By facilitating access to pre-owned devices and reducing reliance on new product manufacturing, Eze Wholesale not only helps businesses lower costs but also contributes to the broader push for sustainability by extending the lifecycle of electronics.",
     ],
     fullCaseLink:
@@ -163,7 +163,7 @@ export const portfolio = [
       "In addition, Spasora empowers hosts with tools to manage availability, communicate with guests, and maintain high-quality standards, creating a more professional and trusted environment for both sides. This ensures that every booking is seamless, predictable, and aligned with the evolving expectations of modern users.",
     ],
     fullCaseLink:
-      "https://kingsleyukeje.notion.site/Creating-a-Scalable-Platform-to-Meet-the-Growing-Demand-for-Affordable-and-Sustainable-Electronics-86bdc6c8155e4691a6aa8c913f7e480f?source=copy_link",
+      "https://kingsleyukeje.notion.site/Building-a-Scalable-Platform-to-Meet-Growing-Demand-for-Flexible-and-Sustainable-Spaces-1af982e1759841d491436e591f628613",
     otherResources: [
       {
         id: 1,
@@ -240,7 +240,7 @@ export const portfolio = [
       "For travellers, this means easier access to reliable, budget-friendly stays. For hotels, it means increased visibility, higher occupancy, and reduced dependence on offline or manual booking processes—supporting a more efficient and sustainable hospitality ecosystem.",
     ],
     fullCaseLink:
-      "https://kingsleyukeje.notion.site/Creating-a-Scalable-Platform-to-Meet-the-Growing-Demand-for-Affordable-and-Sustainable-Electronics-86bdc6c8155e4691a6aa8c913f7e480f?source=copy_link",
+      "https://kingsleyukeje.notion.site/Redefining-Hospitality-in-Africa-Designing-a-Scalable-User-Centered-Apartment-and-Hotel-Booking-Ex-db49657ee9884a779c17079aaf44e18b",
     otherResources: [
       {
         id: 1,
@@ -272,7 +272,7 @@ export const portfolio = [
         id: 6,
         title: "live project",
         description: "hotels.ng",
-        link: "https://ezewholesale.com/",
+        link: "https://hotels.ng/",
       },
       {
         id: 7,

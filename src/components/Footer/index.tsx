@@ -24,22 +24,26 @@ export default function Footer() {
   };
 
   useEffect(() => {
-    // Update time every minute
     const updateTime = () => {
-      const timeOnly = new Date().toLocaleTimeString("en-GB", {
+      const now = new Date();
+
+      const timeOnly = now.toLocaleTimeString("en-GB", {
         timeZone: "Europe/London",
         hour: "2-digit",
         minute: "2-digit",
         second: "2-digit",
-        hour12: false // Set to true for AM/PM
+        hour12: false,
       });
+
       setCurrentTime(timeOnly);
     };
-    updateTime();
-    // const timeInterval = setInterval(updateTime, 60000);
 
-    // Geolocation
+    updateTime();
+
+    const interval = setInterval(updateTime, 1000);
     geo()
+    return () => clearInterval(interval);
+   
   }, []);
 
   // function toDMS(lat: any, lng: any) {
@@ -62,9 +66,9 @@ export default function Footer() {
     <footer className="w-full flex flex-col md:flex-row md:justify-between md:items-end p-4 md:p-[10px] text-sm  text-black dark:text-white gap-8 md:gap-0">
       <div className="flex flex-col space-y-1 md:min-w-[295px]">
         <div>{location?.location?.name}, {location?.location?.country}</div>
-        <div>51°30.443′ N, 0°07.689′ W</div>
+        <div>51°30.443' N, 0°07.689' W</div>
         <div>
-          {currentTime} GTM, {location?.current?.condition?.text} at {location?.current.temp_c} °C
+          {currentTime} GMT, {location?.current?.condition?.text} at {location?.current.temp_c} °C
         </div>
       </div>
       {/* {format(new Date(currentTime), "HH:mm:ss")} */}
