@@ -71,29 +71,31 @@ export default function About() {
 
             <div className="text-sm">
               <p className="text-sm">
-                I&apos;ve helped scale Eze (YC W20) to $50M+ in annual GMV and 20k+
-                users — while also supporting a $3.7M seed raise. I&apos;m a UX
-                Engineer and Founding Designer with years of experience building
-                and scaling high-impact digital products across web and mobile.
-                I operate at the intersection of design, engineering, and
-                product strategy—owning problems end-to-end, from user research
-                and design systems to production frontend code, which means I
-                ship faster and lose less in translation between Figma and
-                production.
+                I&apos;ve helped scale Eze (YC W20) to $50M+ in annual GMV and
+                20k+ users — while also supporting a $3.7M seed raise. I'm also
+                shaping a fintech startup that has disbursed $2M+ in loans and
+                raised $4.2M in seed funding.
               </p>
             </div>
             {/* </a> */}
             <div className="text-sm mt-5">
               <p className="text-sm">
-                I&apos;ve been a founding designer at three startups, including Eze
-                and a fintech platform—helping shape products from zero to
-                scale. Currently, I lead product and design strategy at Eze,
-                where I&apos;ve grown the marketplace to $50M+ in annual GMV, 20,000+
-                users, and helped raise $3.7M in seed funding. I&apos;m also shaping
-                a fintech startup that has disbursed $2M+ in loans and raised
-                $4.2M in seed funding. By implementing my own designs in
-                JavaScript, I accelerate shipping cycles and ensure every
-                feature drives impact and growth.
+                I&apos;m a UX Engineer and Principal Product Designer with years
+                of experience building and scaling high-impact digital products
+                across web and mobile platforms. I do my best work at the
+                intersection of design, engineering, and product strategy—owning
+                problems end-to-end, from user research and design systems to
+                production frontend code, which means I ship faster and lose
+                less in translation between Figma and production.
+              </p>
+            </div>
+            <div className="text-sm mt-5">
+              <p className="text-sm">
+                Currently leading product and design strategy at Eze, I&apos;ve
+                been a founding designer at three startups with a focus on
+                taking products from zero to scale. By implementing my own
+                designs in JavaScript, I accelerate shipping cycles and ensure
+                every feature drives measurable impact and growth.
               </p>
             </div>
             <div className="text-sm mt-5">
@@ -116,9 +118,9 @@ export default function About() {
               <p className="text-sm mt-1">
                 I wear many hats — UX Engineer by profession, photographer, car
                 enthusiast by passion, and pro flag footballer by sheer love of
-                the game. I&apos;m also an author, speaker, and mentor, committed to
-                empowering the next generation of creatives and sharing insights
-                on global stages.
+                the game. I&apos;m also an author, speaker, and mentor,
+                committed to empowering the next generation of creatives and
+                sharing insights on global stages.
               </p>
               <p className="mt-5">
                 Each role fuels a different side of me: I create with purpose,
@@ -144,18 +146,18 @@ export default function About() {
                   href="https://kingsleyukeje.notion.site/The-Pivot-Foundation-cab86362d02a42efb4bad68ba4e2ffab?pvs=143"
                   target="_blank"
                 >
-                   here
+                  here
                 </a>
                 .
               </p>
             </div>
-              <Image
-                src="/new/about_image_2.png"
-                alt="typography"
-                width={1000}
-                height={1000}
-                className="my-1"
-              />
+            <Image
+              src="/new/about_image_2.png"
+              alt="typography"
+              width={1000}
+              height={1000}
+              className="my-1"
+            />
           </section>
         </div>
       </ContentsWrapper>

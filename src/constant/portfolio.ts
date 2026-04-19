@@ -80,7 +80,7 @@ export const portfolio = [
   {
     id: "eze",
     title:
-      "Creating a Scalable Platform to Meet the Growing Demand for Affordable and Sustainable Electronics",
+      "Creating a Scalable Platform to Meet the Growing Demand for Affordable and Sustainable Electronics.",
     text: [
       "During the Apple WWDC event of 2023, when the iPhone 15 series was announced, a major part of their event was centred around their sustainability efforts, focusing on reducing their carbon footprint and moving towards greener manufacturing processes for electronic devices. This commitment to sustainability reflects a broader shift in the industry, with consumers becoming more conscious of the lifecycle of their electronics and businesses increasingly looking for ways to align with these values.",
       "The rapid innovation cycle and planned obsolescence of smartphones have produced a growing secondary smartphone market. Whether you're an individual trading in his or her own personal cellphone, or a vendor buys and sells smartphones in large volumes, navigating the used electronics space is difficult.",
@@ -201,7 +201,7 @@ export const portfolio = [
         id: 7,
         title: "case study",
         description: "read full case study",
-        link: "https://kingsleyukeje.notion.site/Creating-a-Scalable-Platform-to-Meet-the-Growing-Demand-for-Affordable-and-Sustainable-Electronics-86bdc6c8155e4691a6aa8c913f7e480f?source=copy_link",
+        link: "https://kingsleyukeje.notion.site/Building-a-Scalable-Platform-to-Meet-Growing-Demand-for-Flexible-and-Sustainable-Spaces-1af982e1759841d491436e591f628613",
       },
     ],
     portfolioImages: [
@@ -256,7 +256,7 @@ export const portfolio = [
         id: 3,
         title: "motion designer",
         description: "namnso ukpanah",
-        link: "https://www.linkedin.com/in/samuel-olaniyi/",
+        link: "https://www.linkedin.com/in/namnsoukpanah/",
       },
       {
         id: 4,
@@ -278,7 +278,7 @@ export const portfolio = [
         id: 7,
         title: "case study",
         description: "read full case study",
-        link: "https://kingsleyukeje.notion.site/Creating-a-Scalable-Platform-to-Meet-the-Growing-Demand-for-Affordable-and-Sustainable-Electronics-86bdc6c8155e4691a6aa8c913f7e480f?source=copy_link",
+        link:  "https://kingsleyukeje.notion.site/Redefining-Hospitality-in-Africa-Designing-a-Scalable-User-Centered-Apartment-and-Hotel-Booking-Ex-db49657ee9884a779c17079aaf44e18b",
       },
     ],
     portfolioImages: [
