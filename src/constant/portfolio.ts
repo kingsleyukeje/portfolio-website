@@ -156,7 +156,7 @@ export const portfolio = [
   {
     id: "spasora",
     title:
-      "Building a Scalable Platform to Meet Growing Demand for Flexible and Sustainable Spaces",
+      "Building a Scalable Platform to Meet Growing Demand for Flexible and Sustainable Spaces.",
     text: [
       "During COVID break, shifts in the workspace and creative industries highlighted a growing focus on sustainability, resource efficiency, and maximizing the value of existing assets. Hosts and property owners are becoming increasingly aware of the importance of reducing idle time and ensuring their spaces are fully utilized, while also providing quality experiences for users.",
       "Spasora was designed to meet this need: a simple, efficient platform where hosts can list their spaces, and businesses, creators, and event organizers can discover, filter, and book them directly. By optimizing space utilization and providing access to existing venues, Spasora not only helps hosts generate additional revenue but also supports sustainability by making better use of current spaces instead of requiring new constructions.",
@@ -233,7 +233,7 @@ export const portfolio = [
   {
     id: "hotelng",
     title:
-      "Building a Scalable Booking Platform to Meet the Growing Demand for Affordable Hotel Stays Across Africa",
+      "Building a Scalable Booking Platform to Meet the Growing Demand for Affordable Hotel Stays Across Africa.",
     text: [
       "As travel and mobility continue to grow across Nigeria, affordability and reliability have become top priorities for travellers. Consumers are increasingly price-sensitive, while hotels are looking for better digital channels to reach demand without heavy overhead. Finding and booking hotels in Africa is often fragmented. Travellers struggle with inconsistent pricing, poor availability data, and limited trust. On the other side, many hotels—especially small and mid-sized ones—lack efficient tools to distribute their inventory at scale.",
       "Hotels.ng was built to bridge this gap by creating a centralized, scalable platform that connects travellers directly with verified hotels nationwide. By aggregating hotel inventory and standardizing booking experiences, the platform simplifies discovery, improves trust, and expands access to affordable accommodation.",
