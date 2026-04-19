@@ -7,7 +7,6 @@ import FooterNew from "@/components/Footer/Footer";
 import ArrowRight from "@/components/icon";
 import { portfolio } from "@/constant/portfolio";
 import { useParams } from "next/navigation";
-import { useEffect, useState } from "react";
 
 export default function PortfolioDetail() {
   const { id } = useParams<{ id: string }>();

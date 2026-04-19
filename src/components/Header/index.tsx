@@ -9,13 +9,12 @@ import { useEffect, useState } from "react";
 
 export default function Header() {
   const pathname = usePathname();
-  const [scroll, setScroll] = useState<number>();
   const [show, setShow] = useState(true);
   useEffect(() => {
     let lastState = true;
     const handleScroll = () => {
       const y = window.scrollY;
-      setScroll(y);
+      // setScroll(y);
       if (y > 1100 && lastState) {
         lastState = false;
         setShow(false);
