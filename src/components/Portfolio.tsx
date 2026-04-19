@@ -8,7 +8,6 @@ import { usePathname } from 'next/navigation';
 
 function Portfolios() {
   const pathname = usePathname()
-  console.log(pathname.includes("eze"))
   const projects = [
     {
       id: "eze",

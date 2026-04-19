@@ -54,7 +54,6 @@ const TypingEffect = ({ word, speedd }: { word: string; speedd?: number }) => {
 
   const handleHover = () => {
     if (!animationComplete) return;
-    console.log(chars);
     chars.forEach((_, index) => {
       setTimeout(() => {
         setChars((prevChars) => {

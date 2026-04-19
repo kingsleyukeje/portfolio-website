@@ -1,14 +1,39 @@
+/** @format */
+
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import DarkModeToggle from "../dark-mode-toggle";
 import ArrowRight from "../icon";
+import { useEffect, useState } from "react";
 
 export default function Header() {
   const pathname = usePathname();
+  const [scroll, setScroll] = useState<number>();
+  const [show, setShow] = useState(true);
+  useEffect(() => {
+    let lastState = true;
+    const handleScroll = () => {
+      const y = window.scrollY;
+      setScroll(y);
+      if (y > 1100 && lastState) {
+        lastState = false;
+        setShow(false);
+      } else if (y < 950 && !lastState) {
+        lastState = true;
+        setShow(true);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <header className="flex items-start p-4 md:p-[10px] justify-between">
+    <header
+      className={`${show ? "flex" : "hidden"} items-start p-4 md:p-[10px] justify-between w-full`}
+    >
       <div className="flex items-start flex-col md:flex-row gap-14 md:gap-0">
         <div className="text-sm font-normal md:min-w-[210px] text-black dark:text-white">
           <Link href="/" className="  text-sm inline">

@@ -74,7 +74,7 @@ export const portfolio = [
       ["25"],
       ["26"],
     ],
-    textsMargin: false,
+    textsMargin: true,
     studyMargin: true,
   },
   {
