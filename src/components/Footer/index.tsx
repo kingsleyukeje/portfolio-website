@@ -66,7 +66,7 @@ export default function Footer() {
     <footer className="w-full flex flex-col md:flex-row md:justify-between md:items-end p-4 md:p-[10px] text-sm  text-black dark:text-white gap-8 md:gap-0">
       <div className="flex flex-col space-y-1 md:min-w-[295px]">
         <div>{location?.location?.name}, {location?.location?.country}</div>
-        <div>51°30.443' N, 0°07.689' W</div>
+        <div>51°30.443&apos; N, 0°07.689&apos; W</div>
         <div>
           {currentTime} GMT, {location?.current?.condition?.text} at {location?.current.temp_c} °C
         </div>
