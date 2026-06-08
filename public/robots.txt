@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /fonts
+
+# Host
+Host: https://kingsleyukeje.com
+
+# Sitemaps
+Sitemap: https://kingsleyukeje.com/sitemap.xml
