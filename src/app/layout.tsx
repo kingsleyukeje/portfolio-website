@@ -19,13 +19,15 @@ const roboto_mono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kingsley Ukeje - Portfolio",
-  description: "Personal portfolio and writings of Kingsley Ukeje",
+  title: "Kingsley Ukeje",
+  description:
+    "Kingsley is a multifaceted product leader and AI advocate on a mission to build inclusive technology that scales businesses and uplifts communities. He's been a founding member of multiple startups and is currently building Pivot Labs.",
   openGraph: {
-    title: "Kingsley Ukeje - Portfolio",
-    description: "Personal portfolio and writings of Kingsley Ukeje",
+    title: "Kingsley Ukeje",
+    description:
+      "Kingsley is a multifaceted product leader and AI advocate on a mission to build inclusive technology that scales businesses and uplifts communities. He's been a founding member of multiple startups and is currently building Pivot Labs.",
     url: "https://kingsleyukeje.com",
-    siteName: "Kingsley Ukeje Portfolio",
+    siteName: "Kingsley Ukeje",
     images: [
       {
         url: "/assets/og_img.png",
@@ -39,8 +41,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kingsley Ukeje - Portfolio",
-    description: "Personal portfolio and writings of Kingsley Ukeje",
+    title: "Kingsley Ukeje",
+    description:
+      "Kingsley is a multifaceted product leader and AI advocate on a mission to build inclusive technology that scales businesses and uplifts communities. He's been a founding member of multiple startups and is currently building Pivot Labs.",
     images: ["/assets/og_img.png"],
   },
 };
@@ -61,7 +64,17 @@ export default function RootLayout({
             "@type": "Person",
             name: "Kingsley Ukeje",
             url: "https://kingsleyukeje.com",
-            jobTitle: "UX Engineer and Principal Product Designer",
+            image: [
+              "https://res.cloudinary.com/dpii7ocju/image/upload/q_auto/f_auto/v1781080750/061A2098_zi6gtd.jpg",
+              "https://res.cloudinary.com/dpii7ocju/image/upload/q_auto/f_auto/v1781080856/Passport_lacmm9.png",
+              "https://res.cloudinary.com/dpii7ocju/image/upload/q_auto/f_auto/v1781080944/WUDAFRICA-731774_zq0bnu.jpg",
+              "https://res.cloudinary.com/dpii7ocju/image/upload/q_auto/f_auto/v1781080944/WUDAFRICA-731774_zq0bnu.jpg",
+              "https://res.cloudinary.com/dpii7ocju/image/upload/q_auto/f_auto/v1781081118/0G7A8013_fog8wr.jpg",
+            ],
+            description:
+              "Kingsley is a multifaceted product leader and AI advocate on a mission to build inclusive technology that scales businesses and uplifts communities. He's been a founding member of multiple startups and is currently building Pivot Labs.",
+            jobTitle:
+              "Product Designer & Advocate for Human-Centered AI Design",
             worksFor: [
               {
                 "@type": "Organization",
@@ -90,6 +103,7 @@ export default function RootLayout({
               "https://www.youtube.com/@kingsleyukeje",
               "https://kingsleyukeje.substack.com",
               "https://www.are.na/kingsley-ukeje/channels",
+              "https://linktr.ee/kingsleyukeje",
             ],
             subjectOf: [
               {

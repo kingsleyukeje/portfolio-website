@@ -16,7 +16,6 @@ module.exports = {
       },
     ]
   },
-  exclude: ["/old"],
   additionalPaths: async (config) => {
     return [
       // await config.transform(config, '/', { changefreq: 'daily', priority: 1.0 }),        

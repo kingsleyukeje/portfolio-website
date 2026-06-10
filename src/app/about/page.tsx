@@ -3,48 +3,6 @@
 "use client";
 import ContentsWrapper from "@/components/contents-wrapper";
 import Image from "next/image";
-// import { useState, useEffect } from "react";
-
-// function TimeCounter() {
-//   const [timeElapsed, setTimeElapsed] = useState({
-//     years: 0,
-//     months: 0,
-//     days: 0,
-//   });
-
-//   useEffect(() => {
-//     const startDate = new Date("2018-03-08");
-
-//     const calculateTimeElapsed = () => {
-//       const now = new Date();
-//       const diffTime = Math.abs(now.getTime() - startDate.getTime());
-//       const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-
-//       // Calculate years, months, and days
-//       const years = Math.floor(diffDays / 365);
-//       const remainingDays = diffDays % 365;
-//       const months = Math.floor(remainingDays / 30);
-//       const days = remainingDays % 30;
-
-//       setTimeElapsed({ years, months, days });
-//     };
-
-//     // Calculate immediately
-//     calculateTimeElapsed();
-
-//     // Update every day
-//     const interval = setInterval(calculateTimeElapsed, 24 * 60 * 60 * 1000);
-
-//     return () => clearInterval(interval);
-//   }, []);
-
-//   return (
-//     <span>
-//       {timeElapsed.years} years, {timeElapsed.months} months, and{" "}
-//       {timeElapsed.days} days
-//     </span>
-//   );
-// }
 
 export default function About() {
   return (
@@ -72,9 +30,9 @@ export default function About() {
             <div className="text-sm">
               <p className="text-sm">
                 I&apos;ve helped scale Eze (YC W20) to $50M+ in annual GMV and
-                20k+ users — while also supporting a $3.7M seed raise. I&apos;m also
-                shaping a fintech startup that has disbursed $2M+ in loans and
-                raised $4.2M in seed funding.
+                20k+ users — while also supporting a $3.7M seed raise. I&apos;m
+                also shaping a fintech startup that has disbursed $2M+ in loans
+                and raised $4.2M in seed funding.
               </p>
             </div>
             {/* </a> */}
@@ -100,14 +58,55 @@ export default function About() {
             </div>
             <div className="text-sm mt-5">
               <p className="text-sm">
-                I&apos;ve led cross-functional teams, evolved design systems aligned
-                with industry standards, and shipped scalable solutions that
-                improved performance, increased adoption, and directly drove
-                revenue. My edge is simple: I design with engineering
+                I&apos;ve led cross-functional teams, evolved design systems
+                aligned with industry standards, and shipped scalable solutions
+                that improved performance, increased adoption, and directly
+                drove revenue. My edge is simple: I design with engineering
                 constraints in mind and build with user experience as the north
                 star—resulting in faster delivery, fewer iterations, and
                 products that scale.
               </p>
+            </div>
+            <div className="mt-10 w-full">
+              <p className="text-[#B4B4B4]">Gallery</p>
+              <div className="flex gap-1 mt-1">
+                <img
+                  src="https://res.cloudinary.com/dpii7ocju/image/upload/q_auto/f_auto/v1781030093/061A2104_ug6eyx.jpg"
+                  alt="Kingsley Ukeje picture"
+                  className="w-1/3 h-[172px] object-cover"
+                />
+                <img
+                  src="https://res.cloudinary.com/dpii7ocju/image/upload/q_auto/f_auto/v1781030679/IMG_9878_cjo22c.jpg"
+                  alt="Kingsley Ukeje picture"
+                  className="w-1/3 h-[172px] object-cover"
+                />
+                <img
+                  src="https://res.cloudinary.com/dpii7ocju/image/upload/q_auto/f_auto/v1781079262/IMG_4587_bwa7h0.jpg"
+                  alt="Kingsley Ukeje picture"
+                  className="w-1/3 h-[172px] object-cover"
+                />
+              </div>
+              <div className="flex mt-1 gap-1">
+                <img
+                  src="https://res.cloudinary.com/dpii7ocju/image/upload/q_auto/f_auto/v1781079697/WUDAFRICA-731994_ex6l4x.jpg"
+                  alt=""
+                  className="w-[40%] h-[172px] object-cover"
+                />
+                <img
+                  src="https://res.cloudinary.com/dpii7ocju/image/upload/q_auto/f_auto/v1781080064/_A739920_lykusr.jpg"
+                  alt=""
+                  className="w-[30%] h-[172px] object-cover"
+                />
+                <img
+                  src="https://res.cloudinary.com/dpii7ocju/image/upload/q_auto/f_auto/v1781080391/PHOTO-2025-09-29-12-47-53_4_m0gimy.jpg"
+                  alt=""
+                  className="w-[30%] h-[172px] object-cover"
+                />
+              </div>
+              {/* <div className="flex items-center gap-1 mt-2 cursor-pointer font-medium">
+                <p className="text-sm sliding-underline">View More </p>
+                <ArrowRight />
+              </div> */}
             </div>
           </section>
           <section className="mt-10">
@@ -153,7 +152,7 @@ export default function About() {
             </div>
             <Image
               src="/new/about_image_2.png"
-              alt="typography"
+              alt="Kingsley Ukeje speaking at a technology conference"
               width={1000}
               height={1000}
               className="my-1"

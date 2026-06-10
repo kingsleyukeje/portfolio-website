@@ -1,3 +1,5 @@
+/** @format */
+
 import { useEffect, useState } from "react";
 import TypingEffect from "./TypingEffect";
 
@@ -38,7 +40,7 @@ export default function Loader({ onDone }: { onDone: () => void }) {
       }
       const timeout = setTimeout(
         () => setPercent(Math.min(100, percent + increment)),
-        delay
+        delay,
       );
       return () => clearTimeout(timeout);
     } else {
@@ -55,7 +57,7 @@ export default function Loader({ onDone }: { onDone: () => void }) {
 
   return (
     <div
-      className={`fixed inset-0 z-50 bg-white dark:bg-black transition-opacity duration-500 ${
+      className={`fixed inset-0 z-[9999] bg-white dark:bg-black transition-opacity duration-500 ${
         fade ? "opacity-0 pointer-events-none" : "opacity-100"
       }`}
     >
@@ -63,7 +65,7 @@ export default function Loader({ onDone }: { onDone: () => void }) {
       <div className="absolute top-4 left-4 text-left text-[#0A0A0A] dark:text-white font-roboto-mono text-[12px] leading-snug select-none break-words w-[90vw] max-w-[700px] uppercase">
         {typewriterLines.map((line, i) => (
           // <div key={i}>{line}</div>
-          <TypingEffect key={i} word={line} speedd={50}/>
+          <TypingEffect key={i} word={line} speedd={50} />
         ))}
       </div>
       {/* Percent bottom left */}
