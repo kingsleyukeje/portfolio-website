@@ -1,6 +1,14 @@
 /** @format */
 
 import ContentsWrapper from "@/components/contents-wrapper";
+import { metaFunc } from "@/constant/meatadataFunc";
+
+export const metadata = metaFunc({
+  title: "Career | Kingsley Ukeje",
+  description:
+    "Kingsley is a multifaceted product leader and AI advocate on a mission to build inclusive technology that scales businesses and uplifts communities. He's been a founding member of multiple startups and is currently building Pivot Labs.",
+  path: "/career",
+});
 
 export default function Career() {
   const experiences = [
@@ -128,7 +136,9 @@ export default function Career() {
               <div key={cert.id} className="flex mb-4 gap-4">
                 <p className="text-sm w-[80px] font-medium">{cert.year}</p>
                 <div className="w-3/4">
-                  <p className="text-sm underline font-medium sliding-underline">{cert.title}</p>
+                  <p className="text-sm underline font-medium sliding-underline">
+                    {cert.title}
+                  </p>
                   <span className="text-sm font-[500] mb-1 text-[#B4B4B4]">
                     {cert.location}
                   </span>
