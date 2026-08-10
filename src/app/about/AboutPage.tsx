@@ -17,7 +17,7 @@ export default function About() {
             > */}
             <Image
               src="/new/about_image_1.png"
-              alt="typography"
+              alt="About kingsley ukeje"
               width={1000}
               height={1000}
               className="my-1"
