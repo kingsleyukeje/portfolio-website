@@ -143,9 +143,10 @@ export default function RootLayout({
                 ],
 
                 sameAs: [
-                  "https://x.com/kingsleyukeje_",
                   "https://www.linkedin.com/in/kingsleyukeje",
                   "https://www.youtube.com/@kingsleyukeje",
+                  "https://www.wikidata.org/wiki/Q141511004",
+                  "https://x.com/kingsleyukeje_",
                   "https://kingsleyukeje.substack.com",
                   "https://www.are.na/kingsley-ukeje/channels",
                   "https://linktr.ee/kingsleyukeje",
