@@ -110,7 +110,7 @@ export default function RootLayout({
                 url: "https://kingsleyukeje.com/about",
                 name: "About Kingsley Ukeje",
                 mainEntity: {
-                  "@id": "https://kingsleyukeje.com/#person",
+                  "@id": "https://kingsleyukeje.com/about",
                 },
               },
               {
@@ -123,6 +123,10 @@ export default function RootLayout({
                   "https://res.cloudinary.com/dpii7ocju/image/upload/q_auto/f_auto/v1781080856/Passport_lacmm9.png",
                   "https://res.cloudinary.com/dpii7ocju/image/upload/q_auto/f_auto/v1781080944/WUDAFRICA-731774_zq0bnu.jpg",
                   "https://res.cloudinary.com/dpii7ocju/image/upload/q_auto/f_auto/v1781081118/0G7A8013_fog8wr.jpg",
+                  "https://cdn.vanguardngr.com/wp-content/uploads/2023/12/image-569-e1733847753963.png",
+                  "https://www.naijanews.com/wp-content/uploads/2024/05/Kingsley-Ukeje.jpeg",
+                  "https://d1jcea4y7xhp7l.cloudfront.net/wp-content/uploads/2024/07/IMG-20240717-WA0026.jpg",
+                  "https://cdn.guardian.ng/wp-content/uploads/2023/03/us.jpg",
                 ],
 
                 description:
