@@ -29,6 +29,11 @@ const person = {
   // alternateName: ["Kingsley C. Ukeje"],
   url: `${SITE}/`,
   mainEntityOfPage: `${SITE}/about`,
+  identifier: {
+    "@type": "PropertyValue",
+    propertyID: "Google Knowledge Graph ID",
+    value: "/g/11fj5bhwc8&hl",
+  },
 
   image: [
     "https://res.cloudinary.com/dpii7ocju/image/upload/q_auto/f_auto/v1781080750/061A2098_zi6gtd.jpg",
@@ -78,6 +83,8 @@ const person = {
     "https://kingsleyukeje.substack.com",
     "https://www.are.na/kingsley-ukeje/channels",
     "https://linktr.ee/kingsleyukeje",
+    "https://www.google.com/search?kgmid=/g/11fj5bhwc8&hl",
+    "https://share.google/h2iDUuLIUmKbxJiT1",
     // "https://www.instagram.com/TODO",
     // "https://www.crunchbase.com/person/TODO",
   ],
