@@ -259,7 +259,7 @@ const aboutPage = {
   name: "About Kingsley Ukeje",
   isPartOf: { "@id": ID.website },
   // TODO: real dates; update dateModified whenever the page changes
-  dateCreated: "2024-01-01T00:00:00+00:00",
+  dateCreated: "2025-010-01T00:00:00+00:00",
   dateModified: "2026-11-20T00:00:00+00:00",
   mainEntity: { "@id": ID.person }, // must resolve to the Person above
   inLanguage: "en",

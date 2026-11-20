@@ -4,7 +4,6 @@ import type { Metadata } from "next";
 import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import AppLoaderWrapper from "@/components/AppLoaderWrapper";
-import Script from "next/script";
 
 const inter = Inter({
   subsets: ["latin"],
