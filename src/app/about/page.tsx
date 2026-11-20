@@ -5,6 +5,7 @@
 import React from "react";
 import About from "./AboutPage";
 import { metaFunc } from "@/constant/meatadataFunc";
+import JsonLd from "@/components/JsonLd";
 
 export const metadata = metaFunc({
   path: "/about",
@@ -14,7 +15,12 @@ export const metadata = metaFunc({
 });
 
 function page() {
-  return <About />;
+  return (
+    <>
+      <JsonLd page="about" />
+      <About />;
+    </>
+  );
 }
 
 export default page;

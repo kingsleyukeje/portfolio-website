@@ -1,3 +1,10 @@
+import JsonLd from "@/components/JsonLd";
+
 export default function Home() {
-  return <div className="min-h-[50vh] md:min-h-[0px]"></div>;
+  return (
+    <>
+      <JsonLd page="home" />
+      <div className="min-h-[50vh] md:min-h-[0px]"></div>;
+    </>
+  );
 }
